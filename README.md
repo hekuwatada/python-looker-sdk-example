@@ -14,8 +14,8 @@ This repo provides:
 
 Edit `exports.sh` with:
 - Looker base URL
-- Looker client ID
-- Looker client secret
+- Looker SDK client ID
+- Looker SDK client secret
 
 
 ## Step 2: Generate `looker.ini` file with your Looker details
@@ -26,7 +26,7 @@ make setup
 ```
 
 This will:
-  * (1) generate `looker.init` file based on `looker.init.template` with environment variables populated.
+  * (1) generate `looker.ini` file based on `looker.ini.template` with environment variables populated.
   * (2) build a Docker image locally from `Dockerfile` with Python and Looker SDK.
 
 ## Step 3: Run the sample Python script in a Docker container
@@ -63,4 +63,3 @@ make lint
 ````
 
 This will format all Python scripts in the current directory.
-
