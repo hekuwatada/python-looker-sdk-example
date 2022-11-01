@@ -1,5 +1,14 @@
 # How to run example code for Looker Python SDK
 
+The bare minimum setup required to use Looker Python SDK is:
+* (1) Python `3.8`
+  * As of Oct 2022, Looker SDK does not support newer version of Python
+* (2) Looker SDK (https://pypi.org/project/looker-sdk/)
+* (3) Looker API credentials in `looker.ini`
+   * Looker base URL
+   * Looker SDK client ID
+   * Looker SDK client secret
+
 This repo provides:
 * (1) Docker container with the correct Python version required for Looker Python SDK to work
 * (2) Example Python code using the Looker Python SDK
