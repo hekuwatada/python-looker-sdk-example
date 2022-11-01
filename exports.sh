@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export LOOKERSDK_URL=
+export LOOKERSDK_CLIENT_ID=
+export LOOKERSDK_CLIENT_SECRET=

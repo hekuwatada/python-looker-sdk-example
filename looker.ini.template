@@ -1,0 +1,13 @@
+[Looker]
+# https://pypi.org/project/looker-sdk/
+# Instead of looker.ini, environment varialbes LOOKERSDK_<UPPERCASE-SETTING-FROM-INI>
+# e.g. LOOKERSDK_CLIENT_SECRET can also be used
+
+# Base URL for API. Do not include /api/* in the url
+base_url=${LOOKERSDK_URL}
+# API 3 client id
+client_id=${LOOKERSDK_CLIENT_ID}
+# API 3 client secret
+client_secret=${LOOKERSDK_CLIENT_SECRET}
+# Set to false if testing locally against self-signed certs. Otherwise leave True
+verify_ssl=True
