@@ -1,4 +1,9 @@
-# How to run init.py with Looker SDK
+# How to run example code for Looker Python SDK
+
+This repo provides:
+* (1) Docker container with the correct Python version required for Looker Python SDK to work
+* (2) Example Python code using the Looker Python SDK
+* (3) Easy way to run the example Python code in a Docker container
 
 ## Pre-requisites
 - Docker
